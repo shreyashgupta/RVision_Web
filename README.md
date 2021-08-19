@@ -41,11 +41,13 @@ are expected to access the system via a computer browser.
 ## Move the the RVision directory
      
      cd ./RVision
+     
 ## Install the dependencies
 
      npm install
 
-## Run the backend server
+## Run the backend
+* You'll need to generate the congif and key.json from firestore
 
      cd ./src/backend
      nodemon test.js
