@@ -16,16 +16,18 @@ desktop or laptop browser to facilitate online assessment. The system is intende
 and maintained by educational institutions to conduct assessments. The faculty and the students
 are expected to access the system via a computer browser.
 
-##Tech Stack
+## Tech Stack
 
 Frontend
  * ReactJs
  * HTML
  * CSS
  * Js
+
 Backend
  * NodeJs
  * ExpressJs
+
 Database
  * MySQL
  * Fire Store
