@@ -58,6 +58,10 @@ are expected to access the system via a computer browser.
 
 # Screenshots
 ![Landing Page](/screenshots/lp.jpg "Landing Page")
-![Student Login](/screenshots/lp.jpg "Student Login")
+![Student Login](/screenshots/login.jpg "Student Login")
 ![Student](/screenshots/stu.jpg "Student Page")
 ![Faculty](/screenshots/fac.jpg "Faculty Page")
+![Faculty](/screenshots/fac.jpg "Faculty Page")
+![Faculty](/screenshots/fac.jpg "Faculty Page")
+![Test Creation](/screenshots/test_cr.jpg "Test Creation")
+
