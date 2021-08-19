@@ -1,0 +1,16 @@
+.choice
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	border:1px solid black;
+	flex-wrap: wrap;
+	margin:10px;
+}
+.choice>*
+{
+	margin:10px;
+	max-width: 200px;
+	word-wrap: break-word;
+}

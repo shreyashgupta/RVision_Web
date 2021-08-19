@@ -1,0 +1,18 @@
+.note
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	width:450px;
+}
+.note>*
+{
+	margin:20px;
+	margin-top: 00px;
+	margin-bottom: 0px;
+}
+.note input
+{
+	margin:5px;
+}

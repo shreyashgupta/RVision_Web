@@ -1,0 +1,60 @@
+/*.ss
+{
+	margin-top: 75px;
+}*/
+.label
+{
+	width:30vw;
+}
+.ss .x
+{
+	width:20vw;
+}
+.ss .names 
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.ss .names input
+{
+	width:9vw;
+	margin:1vw;
+}
+.ss .y
+{
+	width:18vw;
+	color:black;
+}
+.ss .y:hover
+{
+	color: black;
+}
+.ss .cover
+{
+	margin-top: 100px;
+}
+.ss main .file
+{
+	width:20vw;
+	display: flex;
+	border:1px solid black;
+	justify-content: center;
+	flex-direction: column;
+}
+.ss main .file >*
+{
+	margin: 10px;
+}
+.ss main
+{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 60vw;
+}
+.ss main>*
+{
+	padding:20px;
+}

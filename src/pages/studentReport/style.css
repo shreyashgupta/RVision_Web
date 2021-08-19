@@ -1,0 +1,50 @@
+.queryBlock
+{
+    display:flex;
+    
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width:500px;
+}
+.queryBlock .date
+{
+    width:150px;
+}
+.queryBlock input
+{
+    width:100px
+}
+.queryBlock .course
+{
+    width:175px;
+}
+.testList
+{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+}
+.testInfo
+{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.testInfo p
+{
+    margin:20px;
+}
+.testSummaryBlock
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    width:600px;
+}
+.testList
+{
+    display:flex;
+    flex-wrap: wrap;
+}

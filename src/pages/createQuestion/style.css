@@ -1,0 +1,16 @@
+.seltype
+{
+	margin:20px;
+	padding:10px;
+}
+.seltype>*
+{
+	margin:10px;
+}
+.cq
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
