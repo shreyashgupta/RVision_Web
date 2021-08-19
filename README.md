@@ -16,3 +16,41 @@ desktop or laptop browser to facilitate online assessment. The system is intende
 and maintained by educational institutions to conduct assessments. The faculty and the students
 are expected to access the system via a computer browser.
 
+## Tech Stack
+
+*Frontend*
+ * ReactJs
+ * HTML
+ * CSS
+ * Js
+
+*Backend*
+ * NodeJs
+ * ExpressJs
+
+*Database*
+ * MySQL
+ * Fire Store
+
+# Steps To Run
+
+## Clone repository
+
+     git clone https://github.com/shreyashgupta/RVison.git
+
+## Move the the RVision directory
+     
+     cd ./RVision
+## Install the dependencies
+
+     npm install
+
+## Run the backend server
+
+     cd ./src/backend
+     nodemon test.js
+
+## Run the react web app
+    
+    npm start
+
