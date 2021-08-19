@@ -40,7 +40,7 @@ are expected to access the system via a computer browser.
 
 ## Move the the RVision directory
      
-     cd ./RVision
+     cd ./RVision_web
      
 ## Install the dependencies
 
