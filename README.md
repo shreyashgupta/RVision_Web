@@ -36,7 +36,7 @@ are expected to access the system via a computer browser.
 
 ## Clone repository
 
-     git clone https://github.com/shreyashgupta/RVison.git
+     git clone https://github.com/shreyashgupta/RVision_Web.git
 
 ## Move the the RVision directory
      
