@@ -49,8 +49,8 @@ are expected to access the system via a computer browser.
 ## Run the backend
 * You'll need to generate the congif and key.json from firestore
 
-     cd ./src/backend
-     nodemon test.js
+          cd ./src/backend
+          nodemon test.js
 
 ## Run the react web app
     
