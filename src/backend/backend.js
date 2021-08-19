@@ -3,7 +3,7 @@ const bodyParser=require('body-parser');
 const app=express();
 const admin = require('firebase-admin');
 const fetch = require('node-fetch');
-const serviceAccount = require('./key.json');
+const serviceAccount = require('./key.json'); // your key
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
