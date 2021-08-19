@@ -57,4 +57,4 @@ are expected to access the system via a computer browser.
     npm start
 
 # Screenshots
-[Landing Page](/screenshots/lp.jpg")
+![Landing Page](/screenshots/lp.jpg "San Juan Mountains")
