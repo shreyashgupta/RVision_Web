@@ -1,4 +1,4 @@
-# RVision  
+# RVision  Cancel changes
 ### A web application to make online evaluation easier
 
 In recent times, the pandemic situation has brought major changes in the way educational
@@ -60,8 +60,6 @@ are expected to access the system via a computer browser.
 ![Landing Page](/screenshots/lp.jpg "Landing Page")
 ![Student Login](/screenshots/login.jpg "Student Login")
 ![Student](/screenshots/stu.jpg "Student Page")
-![Faculty](/screenshots/fac.jpg "Faculty Page")
-![Faculty](/screenshots/fac.jpg "Faculty Page")
 ![Faculty](/screenshots/fac.jpg "Faculty Page")
 ![Test Creation](/screenshots/test_cr.jpg "Test Creation")
 
