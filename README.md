@@ -34,9 +34,23 @@ are expected to access the system via a computer browser.
 
 # Steps To Run
 
-## Clone the repo
+## Clone repository
 
      git clone https://github.com/shreyashgupta/RVison.git
-  
 
+## Move the the RVision directory
+     
+     cd ./RVision
+## Install the dependencies
+
+     npm install
+
+## Run the backend server
+
+     cd ./src/backend
+     nodemon test.js
+
+## Run the react web app
+    
+    npm start
 
