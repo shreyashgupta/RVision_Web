@@ -18,22 +18,23 @@ are expected to access the system via a computer browser.
 
 ## Tech Stack
 
-Frontend
+*Frontend*
  * ReactJs
  * HTML
  * CSS
  * Js
 
-Backend
+*Backend*
  * NodeJs
  * ExpressJs
 
-Database
+*Database*
  * MySQL
  * Fire Store
 
 ## Steps To Run
-
+ * Clone the repo
+     git clone https://github.com/shreyashgupta/RVison.git
   
 
 
