@@ -57,4 +57,7 @@ are expected to access the system via a computer browser.
     npm start
 
 # Screenshots
-![Landing Page](/screenshots/lp.jpg "San Juan Mountains")
+![Landing Page](/screenshots/lp.jpg "Landing Page")
+![Student Login](/screenshots/lp.jpg "Student Login")
+![Student](/screenshots/stu.jpg "Student Page")
+![Faculty](/screenshots/fac.jpg "Faculty Page")
