@@ -1,4 +1,4 @@
-# RVision  Cancel changes
+# RVision
 ### A web application to make online evaluation easier
 
 In recent times, the pandemic situation has brought major changes in the way educational
