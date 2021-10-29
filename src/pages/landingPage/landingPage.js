@@ -36,12 +36,12 @@ class LandingPage extends React.Component {
                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                   <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                     Welcome to
-                    <br class="hidden lg:inline-block" />
-                    <span class="text-9xl font-serif text-gray-500">
+                    <br class="inline-block" />
+                    <span class="text-5xl lg:text-9xl font-serif text-gray-500">
                       RVison
                     </span>
                   </h1>
-                  <p class="mb-8 leading-relaxed">
+                  <p class="text-left lg:text-center mb-8 leading-relaxed">
                     A comprehensive platform for the students of any college to
                     get the best of their knowledge. We provide a platform to
                     the students and Teachers hence reducing the time and effort
