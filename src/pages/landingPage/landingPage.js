@@ -1,11 +1,9 @@
 import React from "react";
 import "tachyons";
 import { Link } from "react-router-dom";
-import Navbar from "../../components/navbar/navbar";
 import { auth, firestore } from "../../backend/server";
-import "./style.css";
 import { getByDisplayValue } from "@testing-library/react";
-
+import Footer from "../../components/Footer/Footer";
 //import {givVal} from '../../backend/index';
 //const { spawn } = require('child_process')
 class LandingPage extends React.Component {
@@ -33,7 +31,6 @@ class LandingPage extends React.Component {
       <div className="lp">
         {this.state.isLoggedin == false ? (
           <>
-            <Navbar />
             <section class="text-gray-600 body-font">
               <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">

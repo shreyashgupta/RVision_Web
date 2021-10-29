@@ -25,12 +25,14 @@ import StudentReport from "./pages/studentReport/studentReport.js";
 import ViewSubmission from "./pages/viewSubmission/viewSubmission.jsx";
 import ChangePassword from "./pages/changePassword/changePassword.js";
 import SignUp from "./signUp/SignUp";
+import Footer from "./components/Footer/Footer";
 // import Map from './components/Map.js';
 
 function App() {
   return (
     <React.Fragment>
       <BrowserRouter>
+        <Navbar />
         <div className="App">
           <Route exact path="/">
             <LandingPage />
@@ -101,6 +103,7 @@ function App() {
           <Route exact path="/changePassword">
             <ChangePassword />
           </Route>
+          <Footer />
         </div>
       </BrowserRouter>
     </React.Fragment>
