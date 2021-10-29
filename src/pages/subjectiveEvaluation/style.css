@@ -1,0 +1,47 @@
+.updateScore
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:100px;
+}
+.qas
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.updateScore>*
+{
+    margin:5px;
+}
+.qablock
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:500px;
+}
+.qablock>*
+{
+    margin:10px;
+}
+.qablock .submit
+{
+    width:120px;
+}
+.imgList
+{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imgList>*
+{
+    width:100px;
+    height:100px;
+    margin:10px;
+}

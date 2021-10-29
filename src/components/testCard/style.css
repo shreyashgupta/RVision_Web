@@ -1,0 +1,45 @@
+.card
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  font-family: arial;
+  border-radius: 15px;
+  max-width: 300px;
+  margin:30px;
+}
+.courseInfo
+{
+  color: purple;
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  align-items: center;
+  
+}
+.testInfo
+{
+  padding:10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.testInfo p
+{
+  font-size: 20px;
+  margin:10px;
+}
+.id
+{
+  font-size: 20px;
+}
+.name
+{
+  font-size:40px;
+  margin:0px;
+}
+.btn
+{
+  width:100px;
+}
