@@ -3,7 +3,9 @@ import 'tachyons';
 import {Link, Redirect} from 'react-router-dom';
 import TestCard from '../../components/testCard/testCard.jsx';
 import {firestore} from '../../backend/server';
-import './style.css'
+import './style.css';
+import FullCalendar from '@fullcalendar/react' // must go before plugins;
+import dayGridPlugin from '@fullcalendar/daygrid' // a plugin!
 
 //import {givVal} from '../../backend/index';
 //const { spawn } = require('child_process')
@@ -185,6 +187,10 @@ class ViewTests extends React.Component {
       :
       <div>
       <h1>Sign in as Student required</h1>
+      <FullCalendar
+        plugins={[ dayGridPlugin ]}
+        initialView="dayGridMonth"
+      />
       </div>
     );
   }
