@@ -19,76 +19,63 @@
 	color:black;
 	margin:10px;	
 } */
-.facultybtns
-{
-	display: flex;
-	justify-content:center;
-	flex-direction: row;
-	flex-wrap:wrap;
-	margin:30px;
+.facultybtns {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 30px;
 }
-.btnCard
-{
-	display:flex;
-	flex-direction: column;
-	margin:70px;
-	margin-bottom:30px;
-	width:200px;
-	/* height:270px; */
+.btnCard {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  margin-bottom: 30px;
+  width: 200px;
+  /* height:270px; */
 }
-.Info
-{
-	width:600px;
-	display: flex;
-	flex-direction:row;
-	color:white;
-	justify-content:space-around;
-	border-radius: 0px 0px 30px 30px;
-	background-image: url(../../assets/bgp.jpg);
-	/* background-color: #7300c0; */
+.Info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #7300c0; */
 }
-.Info>*
-{
-	margin:20px;
+.Info > * {
+  margin: 20px;
 }
-.name>*
-{
-	margin:20px;
+.name > * {
+  margin: 20px;
 }
-.name
-{
-	display:flex;
-	flex-direction: row;
-	align-items: center;
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.ID p 
-{
-	font-size:20px;
+.ID p {
+  font-size: 20px;
 }
-.ID .name
-{
-	font-size:40px;
+.ID .name {
+  font-size: 40px;
 }
-.Image img
-{
-	width: 150px;
-	height:150px;
-	border-radius: 100%;
-	border:2px solid black;
+.Image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 2px solid black;
 }
-.clipart img
-{
-	width:150px;
-	height:150px;
-	border-radius: 0px;
-	margin:10px;
+.clipart img {
+  width: 150px;
+  height: 150px;
+  border-radius: 0px;
+  margin: 10px;
 }
-.title>*
-{
-	font-size:25px;
-	color:purple;
-	text-decoration: none;
-	display: inline-block;
+.title > * {
+  font-size: 25px;
+  color: purple;
+  text-decoration: none;
+  display: inline-block;
 }
 /* .outer {
 	margin: 50px;

@@ -119,10 +119,14 @@ class StudentSignIn extends React.Component {
         </div>
       </div>
     ) : (
-      <div>
+      <div className="min-h-screen">
+        <h1>You are already logged in as </h1>
+        <span className="text-2xl text-blue-400">
+          {localStorage.getItem("token")}
+        </span>
         <input
+          className="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
           onClick={this.handleLogout}
-          className="b br3 ph3 pv2 input-reset ba white bg-dark-red grow pointer f6 dib"
           type="submit"
           value="signOut"
         />

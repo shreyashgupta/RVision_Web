@@ -100,14 +100,12 @@ class FacultySignIn extends React.Component {
                   />
                 </div>
               </fieldset>
-              <button
-                class="text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 p-3 rounded-md shadow-lg active:scale-90"
+              <input
                 onClick={this.onSubmitSignIn}
+                class="text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 p-3 rounded-md shadow-lg active:scale-90"
                 type="submit"
-                value="Sign in"
-              >
-                Sign In
-              </button>
+                value="Sign In"
+              />
             </div>
           </main>
         </article>
@@ -120,10 +118,14 @@ class FacultySignIn extends React.Component {
         </div>
       </div>
     ) : (
-      <div>
+      <div className="min-h-screen">
+        <h1>You are already logged in as </h1>
+        <span className="text-2xl text-blue-400">
+          {localStorage.getItem("token")}
+        </span>
         <input
+          className="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
           onClick={this.handleLogout}
-          className="b br-pill ph3 pv2 input-reset ba white bg-dark-red grow pointer f6 dib"
           type="submit"
           value="signOut"
         />

@@ -33,10 +33,6 @@ class AdminSignIn extends React.Component {
     console.log(this.state);
     try {
       await auth.signInWithEmailAndPassword(email, password);
-      // for(let i=0;i<1000;i++)
-      //   for(let j=0;j>5;j++);
-      // console.log(this.state.users);
-      //alert(`Logged in as Employer successfully`);
       localStorage.setItem("token", "admin");
       localStorage.setItem("email", email);
       alert("SignedIn as admin");
@@ -60,7 +56,7 @@ class AdminSignIn extends React.Component {
           <main className="pa4 black-80">
             <div className="measure">
               <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-                <legend className="f1 fw6 ph0 mh0">Admin Login</legend>
+                <legend className="font-normal text-5xl">Admin Login</legend>
                 <div className="mt3">
                   <label className="db fw6 lh-copy f6" htmlFor="email-address">
                     Email
@@ -86,14 +82,12 @@ class AdminSignIn extends React.Component {
                   />
                 </div>
               </fieldset>
-              <div className="mv3">
-                <input
-                  onClick={this.onSubmitSignIn}
-                  class="text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 p-3 rounded-md shadow-lg active:scale-90"
-                  type="submit"
-                  value="Sign in"
-                />
-              </div>
+              <input
+                onClick={this.onSubmitSignIn}
+                class="text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 p-3 rounded-md shadow-lg active:scale-90"
+                type="submit"
+                value="Sign in"
+              />
             </div>
           </main>
         </article>

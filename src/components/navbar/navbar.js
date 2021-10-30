@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom";
-
+import { React, useState } from "react";
 export default function Nav() {
+  const role = localStorage.getItem("id");
+
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("email");
+    // setIsLoggedIn(false);
+    window.location.pathname = "/";
+  };
+
   return (
     <>
-      <header className="text-gray-800 bg-white shadow-md body-font min-w-full lg:rounded-xl">
+      <header className="text-gray-800 bg-gray-50 shadow-md body-font min-w-full lg:rounded-xl">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Link
             className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
@@ -31,7 +40,7 @@ export default function Nav() {
               </Link>
             </h2>
             <h2
-              key={1}
+              key={2}
               className="last:pr-24 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-gray-700 active:text-blue-400"
             >
               <Link to="/studentSignIn" className="m-5 hover:text-blue-800">
@@ -39,7 +48,7 @@ export default function Nav() {
               </Link>
             </h2>
             <h2
-              key={1}
+              key={3}
               className="last:pr-24 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-blue-700 active:text-blue-400"
             >
               <Link to="/facultySignIn" className="m-5 hover:text-blue-800">
@@ -47,7 +56,7 @@ export default function Nav() {
               </Link>
             </h2>
             <h2
-              key={1}
+              key={4}
               className="last:pr-24 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-gray-700 active:text-blue-400"
             >
               <Link to="/adminSignIn" className="m-5 hover:text-blue-800">
@@ -55,11 +64,11 @@ export default function Nav() {
               </Link>
             </h2>
             <h2
-              key={1}
+              key={5}
               className="last:pr-24 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-gray-700 active:text-blue-400"
             >
-              <Link to="/signup" className="m-5 hover:text-blue-800">
-                Sign Up
+              <Link onClick={handleLogout} className="m-5 hover:text-blue-800">
+                Logout
               </Link>
             </h2>
           </nav>
