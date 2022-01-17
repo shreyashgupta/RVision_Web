@@ -16,11 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 var mysql = require("mysql");
 var connection = mysql.createConnection({
-  host: "3.129.230.190",
-  user: "ubuntu",
-  password: "qwerty",
-  database: "rvision",
-  port: 3306,
+
 });
 var PORT = 3000;
 connection.connect((err) => {
