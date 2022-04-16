@@ -27,3 +27,5 @@ are expected to access the system via a computer browser.
 ![alt text](./screenshot/fac1.jpg)
 
 ![alt text](./screenshot/fac2.jpg)
+
+![alt text](./screenshot/ques.jpg)
