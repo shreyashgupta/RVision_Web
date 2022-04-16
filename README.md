@@ -16,3 +16,14 @@ desktop or laptop browser to facilitate online assessment. The system is intende
 and maintained by educational institutions to conduct assessments. The faculty and the students
 are expected to access the system via a computer browser.
 
+![alt text](./screenshot/landing.jpg)
+
+![alt text](./screenshot/student.jpg)
+
+![alt text](./screenshot/student1.jpg)
+
+![alt text](./screenshot/report.jpg)
+
+![alt text](./screenshot/fac1.jpg)
+
+![alt text](./screenshot/fac2.jpg)
